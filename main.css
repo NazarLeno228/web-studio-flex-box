@@ -12,6 +12,27 @@ html{
     box-sizing: inherit;
 }
 
+.header nav{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.nav-link{
+    color: var(--primary-text-color);
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.nav-item{
+    margin-left: 50px;
+}
+
+.nav-item:not(:first-child),
+.contacts-item:not(:first-child){
+    margin-left: 50px;
+}
+
 body{
     font-family: "Roboto", sans-serif;
     font-style: normal;
@@ -33,7 +54,7 @@ li{
     padding: 0;
     margin: 0;
 }
-.nav-link
+.nav-link,
 .contacts-link{
 font-weight: 500;
 font-size: 14px;
@@ -50,7 +71,8 @@ letter-spacing: 0.02em;
 }
 
 .container.header{
-   
+   padding-top: 24px;
+   padding-bottom: 25px;
     display: flex;
 }
 
@@ -62,11 +84,15 @@ letter-spacing: 0.02em;
     display: flex;
 }
 
-.contact.list{
+.contacts-list{
     display: flex;
-    outline: solid 1px green;
+    /* outline: solid 1px green; */
     margin-left: auto;
 }
+.contacts-item{
+
+}
+
 
 .logo{
     font-family: "Raleway", sans-serif;
