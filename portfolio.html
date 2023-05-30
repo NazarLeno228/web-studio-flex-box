@@ -5,29 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="main.css">
 <link rel="stylesheet" href="portfolio.css">
     <title>Portfolio</title>
 </head>
 <body>
     <header>
        
-        <nav>
-        <!-- Логотип -->
-        <a class="logo"  href="./">Web<span>Studio</span></a>
-         <!-- Навігація -->
-         <ul>
-           <li><a href="./index.html">студія</a></li>
-           <li><a href="./portfolio.html">портфоліо</a></li>
-           <li><a href="">контакти</a></li>
-         </ul>
-       </nav>
-       <ul>
-         <li><a href="info@devstudio">info@devstudio</a></li>
-         <li><a href="+30 096 111 11 11 ">+30 096 111 11 11 </a></li>
-       </ul>
-     </header>
-     <main>
-        <section>
+        <div class="container header">
+            <nav>
+              <!-- Логотип -->
+              <a class="logo" href="./">Web<span>Studio</span></a>
+              <!--Навігація -->
+              <ul class="nav-list">
+                <li class="nav-item">
+                  <a class="nav-link" href="">Студія</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./portfolio.html">Портфоліо</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="">Контакти</a>
+                </li>
+              </ul>
+            </nav>
+            <!-- Контакти -->
+            <ul class="contacts-list">
+             <li class="contacts-item">
+               <a class="contacts-link" href="">info@devstudio.com</a>
+             </li>
+             <li class="contacts-item">
+               <a class="contacts-link" href="">+38 096 111 11 11</a>
+             </li>
+            </ul>
+            
+          </div>
+    </header>
+    <main>
+        <section class="section">
+            <div class="container">
 <ul>
     <li>
 <button type="button">  Усі  </button>
@@ -42,71 +58,90 @@
 <button type="button">Маркетинг</button>
 </li>
 </ul>
-<ul>
-    <li>
+<ul class="foto-list">
+    <li class="foto-item" >
         <a href="">
-            <img src="images/img11.png" alt="">
+            <img src="images/img1 (1).png" alt="">
+            <div>
             <h3 class="">Технокряк</p>
             <p>Веб-сайт</p>
+            </div>
         </a>
     </li>
-    <li>
+    <li class="foto-item">
         <a href="">
-            <img src="images/img12.png" alt="">
+            <img src="images/img2.png" alt="">
+            <div>
             <h3 class="job-title">Постер New Orlean vs Golden Star</h3>
             <p>Дизайн</p>
+            </div>
         </a>
     </li>
-    <li>
+    <li class="foto-item">
         <a href="">
-            <img src="images/img13.png" alt="">
+            <img src="images/img4.png" alt="">
+            <div>
             <h3 class="job-title">Ресторан Seafood</h3>
             <p>Додаток</p>
+            </div>
         </a>
     </li>
-    <li>
+    <li class="foto-item">
         <a href="">
-            <img src="images/img14.png" alt="">
+            <img src="images/img5.png" alt="">
+            <div>
             <h3 class="job-title">Проєкт Prime</h3>
             <p>Проєкт Prime</p>
+            </div>
         </a>
     </li>
-    <li>
+    <li class="foto-item">
         <a href="">
-            <img src="images/img14 (1).png" alt="">
+            <img src="images/img6.png " alt="">
+            <div>
             <h3 class="job-title">Проєкт Boxes</h3>
             <p>Додаток</p>
+            </div>
         </a>
     </li>
-    <li>
+    <li class="foto-item">
         <a href="">
-            <img src="images/img15.png" alt="">
+            <img src="images/img1 (1).png" alt="">
+            <div>
             <h3 class="job-title">Inspiration has no Borders</h3>
             <p>Веб-сайт</p>
+            </div>
         </a>
     </li>
-    <li>
+    <li class="foto-item">
         <a href="">
-            <img src="images/img15.png" alt="">
+            <img src="images/img8.png" alt="">
+            <div>
             <h3 class="job-title">Видання Limited Edition</h3>
             <p>Дизайн</p>
+            </div>
         </a>
     </li>
-    <li>
+    <li class="foto-item">
         <a href="">
-            <img src="images/img17.png" alt="">
+            <img src="images/img9.png" alt="">
+            <div>
             <h3 class="job-title">Проєкт LAB</h3>
             <p>Маркетинг</p>
+            </div>
         </a>
     </li>
-    <li>
+    <li class="foto-item">
         <a href="">
-            <img src="images/img18.png" alt="">
+            <img src="images/img9.png" alt="">
+            <div>
             <h3 class="job-title">Growing Business</h3>
             <p>Додаток</p>
+            </div>
         </a>
     </li>
 </ul>
+            </div>
         </section>
      </main>
     
