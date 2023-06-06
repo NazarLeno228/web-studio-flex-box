@@ -157,6 +157,15 @@ li{
 /* Герой */
 
 
+
+.section-hero{
+    background-image: url(images/Imgwebstudio.jpg);
+    height: 600px;
+    width: 1600;
+    padding: 200px;
+}
+
+
 .hero{
     padding-top: 200px;
     padding-bottom: 200px;
@@ -182,8 +191,8 @@ h1{
 
     color: var(--background-color);
 }
-
 .hero-button{
+display: inline-block;
     border: none;
     border-radius: 4px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -194,13 +203,17 @@ h1{
     font-size: 16px;
     line-height: 30px;
     letter-spacing: 0.06em;
-    text-align: center;    
+    text-align: center;
 
     color: var(--background-color);
     background-color: var(--accent-color);
 }
 
 /* Переваги */
+
+
+
+
 
 .advantages{
     display: flex;
@@ -210,6 +223,32 @@ h1{
 .advantages .item{
     width: 270px;
 }
+
+.item::before{
+    content:"";
+    display: block;
+    height: 120px;
+    background-color: #F5F4FA;
+border-radius: 4px;
+background-image: url(images/Vector1\ \(1\).svg);
+background-repeat: no-repeat;
+background-position: center;
+margin-bottom: 30px;
+}
+
+.icon-arials::before{
+    background-image: url(images/Vector1\ \(1\).svg);
+}
+.icon-clock::before{
+background-image: url(images/Vector2.png)
+}
+.icon-diagram::before{
+background-image: url(images/Vector3\ \(1\).png);
+}
+.icon-astronaut::before{
+background-image: url(images/Vector4\ \(1\).png);
+}
+
 .advantages .title,
 .advantages .text{
     font-size: 14px;
