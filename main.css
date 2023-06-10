@@ -143,6 +143,13 @@ li{
     padding-bottom: 32px;
 }
 
+.nav-link{
+    color: var(--primary-text-color);
+
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
 .contacts-link{
     color: var(--secondary-text-color);
 }
